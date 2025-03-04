@@ -1,0 +1,12 @@
+//os module
+const os=require('os')
+const user=os.userInfo()
+console.log(`user info=`,user)
+console.log(`up time=`,os.uptime(),"ms")
+console.log(`name=`,os.type())
+console.log(`release=`,os.release())
+console.log(`total memory=`,os.totalmem())
+console.log(`free memory=`,os.freemem())
+console.log(`arch=`,os.arch())
+console.log(`cpus=`,os.cpus())
+console.log(`avg load=`,os.loadavg())
