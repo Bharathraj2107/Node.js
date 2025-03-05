@@ -12,3 +12,7 @@ const server =http.createServer(function (req,res){
 server.listen(port,()=>{
     console.log(`server is running on http://localhost:${port}`)
 })
+// Imports the http module and defines the port number (4000).
+// http.createServer(callback) creates an HTTP server.
+
+// The callback function logs the request URL (req.url) and HTTP method (req.method).

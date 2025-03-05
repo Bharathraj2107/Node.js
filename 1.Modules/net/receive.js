@@ -12,3 +12,14 @@ client.on("data",function(msg){
 client.on("end",()=>{
     console.log('server disconnected')
 })
+// net.connect(options, callback) creates a TCP connection to the server.
+
+// port: 56202: The port number to connect to.
+
+// // The callback function logs a message indicating that the client is connected.
+// Listens for the data event, which is triggered when the client receives data from the server.
+
+// msg: The received data (in Buffer format).
+
+// msg.toString() converts the Buffer to a string.
+// Listens for the end event, which is triggered when the server disconnects.
